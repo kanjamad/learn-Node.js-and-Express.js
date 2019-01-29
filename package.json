@@ -1,0 +1,23 @@
+{
+  "name": "Node",
+  "version": "1.0.0",
+  "description": "Node.js + Express.js",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanjamad/learn-Node.js-and-Express.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanjamad/learn-Node.js-and-Express.js/issues"
+  },
+  "homepage": "https://github.com/kanjamad/learn-Node.js-and-Express.js#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
