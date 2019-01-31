@@ -7,7 +7,7 @@ app.get('/', (req, res) =>{
         name: 'Sally',
         hobby:  'soccer'
     }
-    res.send();
+    res.send(user);
 })
 
 app.listen(3000)
