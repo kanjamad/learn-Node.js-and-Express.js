@@ -17,3 +17,9 @@ https://2018.stateofjs.com/back-end-frameworks/overview/
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. there’s plenty of tools and information online for it. So, if I get stuck I am able to find an answer to my issue right away.
 Let's install https://expressjs.com/en/starter/installing.html
 Well express is really good at doing routing.
+
+
+Postman:
+Is great. It’s a great way to test out my server before I connect it to my front-end,
+https://www.getpostman.com/
+https://www.npmjs.com/package/body-parser
