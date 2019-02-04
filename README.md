@@ -23,3 +23,12 @@ Postman:
 Is great. It’s a great way to test out my server before I connect it to my front-end,
 https://www.getpostman.com/
 https://www.npmjs.com/package/body-parser
+
+
+RESTful API:
+https://searchmicroservices.techtarget.com/definition/RESTful-API
+
+Now what is that?
+Representational state transfer
+A RESTful API  defines a set of function which developers can perform requests and receive responses via a HTTP protocol such as GET, POST, PUT, DELETE.
+And I just think of this (‘/profile’) as the noun of what I want to receive the HTTP request is the verb and everything after the slash [/] is the noun. Now finally REST API are something called ‘stateless’ - meaning that calls can be made independently of one another and each call contains all the data necessary to complete itself successfully. A server doesn’t need to keep memoryizing things. Each request that comes in has enough information that the server can respond.
