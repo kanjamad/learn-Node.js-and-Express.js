@@ -6,12 +6,9 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-    req.query
-    req.body
-    req.header
-    req.params
-    res.send("getting root");
+app.get('/:id', (req, res) => {
+    console.log(req.params);
+    res.status(404).send("not found");
 });
 
 
