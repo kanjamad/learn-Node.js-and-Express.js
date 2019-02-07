@@ -32,3 +32,16 @@ Now what is that?
 Representational state transfer
 A RESTful API  defines a set of function which developers can perform requests and receive responses via a HTTP protocol such as GET, POST, PUT, DELETE.
 And I just think of this (‘/profile’) as the noun of what I want to receive the HTTP request is the verb and everything after the slash [/] is the noun. Now finally REST API are something called ‘stateless’ - meaning that calls can be made independently of one another and each call contains all the data necessary to complete itself successfully. A server doesn’t need to keep memoryizing things. Each request that comes in has enough information that the server can respond.
+
+
+ExpressJS - Serving static files;
+https://www.tutorialspoint.com/expressjs/expressjs_static_files.htm
+Static files are files that clients download as they are from the server. Create a new directory, public. Express, by default does not allow you to serve static files. You need to enable it using the following built-in middleware.
+
+            app.use(express.static('public'));
+
+Note − Express looks up the files relative to the static directory, so the name of the static directory is not part of the URL.
+
+And this is a server that I just built that serves simple static assets.
+And as soon as I want to have something like an API where I in terrace with it I do GET, POST, PUT, DELETE. That’s when I start using my methods that I learned previously.
+	Now that I have this basic foundation I am going to build my server for my app
