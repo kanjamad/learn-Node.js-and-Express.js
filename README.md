@@ -45,3 +45,5 @@ Note − Express looks up the files relative to the static directory, so the nam
 And this is a server that I just built that serves simple static assets.
 And as soon as I want to have something like an API where I in terrace with it I do GET, POST, PUT, DELETE. That’s when I start using my methods that I learned previously.
 	Now that I have this basic foundation I am going to build my server for my app
+
+String Decoder Module in node.js https://www.nodejsera.com/nodejs-tutorial-day22-string-decoder.html
