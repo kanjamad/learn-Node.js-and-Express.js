@@ -1,8 +1,13 @@
-const script2 = require ('./script2')
+const fs = require('fs')
 
-const a = script2.largeNumber;
-const b = 10;
+fs.readFile('./hello.txt',(err, data) => {
+    if (err) {
+        console.log('errrrrroooorrr');
+    }
+    console.log('asynchronous;here’s the data', data.toString('utf8'));
+})
 
-    console.log(a + b);
+const file = fs.readFileSync('./hello.txt');
+console.log('synchronous', file.toString());
 
 
