@@ -4,10 +4,18 @@ fs.readFile('./hello.txt',(err, data) => {
     if (err) {
         console.log('errrrrroooorrr');
     }
-    console.log('asynchronous;here’s the data', data.toString('utf8'));
+    console.log('1.Async', data.toString('utf8'));
 })
 
 const file = fs.readFileSync('./hello.txt');
-console.log('synchronous', file.toString());
+console.log('2.Sync', file.toString());
+
+
+// APPEND, add something to it
+fs.appendFile('./hello.txt', ' This is so cool!', err => {
+    if (err) {
+        console.log(err);
+    }
+})
 
 
