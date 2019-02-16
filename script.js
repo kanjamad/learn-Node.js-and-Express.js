@@ -12,10 +12,16 @@ console.log('2.Sync', file.toString());
 
 
 // APPEND, add something to it
-fs.appendFile('./hello.txt', ' This is so cool!', err => {
-    if (err) {
-        console.log(err);
-    }
-})
+// fs.appendFile('./hello.txt', ' This is so cool!', err => {
+//     if (err) {
+//         console.log(err);
+//     }
+// })
 
+
+// WRITE
+fs.writeFile('bye.txt', 'sad to see you go', err => {
+    if (err)
+    console.log(err);
+})
 
