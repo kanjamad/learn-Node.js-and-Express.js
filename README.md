@@ -47,3 +47,11 @@ And as soon as I want to have something like an API where I in terrace with it I
 	Now that I have this basic foundation I am going to build my server for my app
 
 String Decoder Module in node.js https://www.nodejsera.com/nodejs-tutorial-day22-string-decoder.html
+
+
+
+Well, now I am  able to use programing in javaScript outside of just web browsers and outside of just building website and servers. What I can do now with this knowledge is I can make my life easier. I can think of case maybe I want to read an excel file and there are things that I can use, using read file and using NPM modules that I can read. Let say column in an excel and do some math. 
+	Ex.Or maybe I have an excel sheet with all these emails and I want to send out an e-mail to let’s say 100 people on this list but I also don’t want to be caught spamming people by the google filter saying  that hey this account is spamming because they just sent 100 emails in two minutes. Well using something like Node, I can create perhaps something that in every six hours, sends out five e-mails.
+	Ex.Another thing I can do if I had a robot for example something similar to a file system instead of having reading from the file 
+fs.readFile('./hello.txt',(err, data) => {
+I can read from the robot, maybe through wireless maybe through wires and get an input of some data  that the robot has. Maybe it detected a cat. Well using that input, I can do something I can respond maybe send me an e-mail saying that the robot just detected a cat and send that e-mail out or send an output. And that’s what we call input output, where I am getting 
