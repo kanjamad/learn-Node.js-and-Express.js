@@ -20,8 +20,16 @@ console.log('2.Sync', file.toString());
 
 
 // WRITE
-fs.writeFile('bye.txt', 'sad to see you go', err => {
-    if (err)
-    console.log(err);
-})
+// fs.writeFile('bye.txt', 'sad to see you go', err => {
+//     if (err)
+//     console.log(err);
+// })
 
+// DELETE
+fs.unlink('./bye.txt', err => {
+    if (err) {
+        console.log(err);
+    }
+    // just for fun, add a console.log here after it has done deleting and will say inception Because I am saying bye to the ./bye.txt
+    console.log('Inception');
+})
